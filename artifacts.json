@@ -6,8 +6,7 @@
     "lastUpdated": "2026-05-12"
   },
   "categories": [
-    { "id": "aivc-family", "label": "AIVC-Familie", "accent": "navy" },
-    { "id": "strategie", "label": "Strategie & Akquise", "accent": "teal" }
+    { "id": "aivc-family", "label": "AIVC-Familie", "accent": "navy" }
   ],
   "artifacts": [
     {
@@ -63,17 +62,6 @@
       "tags": ["ROI", "Infrastruktur", "Plattform"],
       "description": "Infrastructure-ROI für AI-Value-Capture. Wo zahlt sich Plattform-Investition aus, wo bleibt sie totes Kapital.",
       "file": "frozen/aivcir.html",
-      "cover": null
-    },
-    {
-      "slug": "akquise-plan-ai",
-      "title": "Akquise-Plan · AI Value Capturer",
-      "subtitle": "Vom Intrapreneur zur eigenen Praxis",
-      "date": "2026-05-05",
-      "category": "strategie",
-      "tags": ["Akquise", "Strategie", "Positionierung"],
-      "description": "Akquise-Plan vom Intrapreneur zur eigenen AI-Value-Capturer-Praxis. Stufenplan, Segmente, Kanäle und Pitch-Architektur als zusammenhängendes Bild.",
-      "file": "frozen/akquise-plan-ai.html",
       "cover": null
     }
   ]
