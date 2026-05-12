@@ -1,0 +1,80 @@
+{
+  "site": {
+    "title": "Vantum Gallery",
+    "subtitle": "Frozen Artifacts aus der AI-Value-Capturer-Praxis",
+    "owner": "Jay Manuzon",
+    "lastUpdated": "2026-05-12"
+  },
+  "categories": [
+    { "id": "aivc-family", "label": "AIVC-Familie", "accent": "navy" },
+    { "id": "strategie", "label": "Strategie & Akquise", "accent": "teal" }
+  ],
+  "artifacts": [
+    {
+      "slug": "aivcio",
+      "title": "AIVCIO — Individual Operations Diagnostic",
+      "subtitle": "Self-Pilot Report",
+      "date": "2026-05-11",
+      "category": "aivc-family",
+      "tags": ["Diagnostics", "Individual", "Operations"],
+      "description": "Individuelle Operations-Diagnostik zur AI-Value-Capture-Reife. Zeigt Hot Cases, Worth-Exploring-Felder und Not-Yet-Bereiche im operativen Alltag einer Einzelperson.",
+      "file": "frozen/aivcio.html",
+      "cover": null
+    },
+    {
+      "slug": "aivco",
+      "title": "AIVCO — Operations Potential",
+      "subtitle": "AI Value Capture im Team-Operations-Kontext",
+      "date": "2026-05-05",
+      "category": "aivc-family",
+      "tags": ["Diagnostics", "Team", "Operations"],
+      "description": "Operations-Potenzial-Diagnostik im Team-Kontext. Welche Routinen tragen heute schon AI, welche sind reif zur Übergabe, welche bleiben menschlich.",
+      "file": "frozen/aivco.html",
+      "cover": null
+    },
+    {
+      "slug": "aivch",
+      "title": "AIVCH — Health Check",
+      "subtitle": "AI Value Capture · Reife- und Risiko-Aufnahme",
+      "date": "2026-05-05",
+      "category": "aivc-family",
+      "tags": ["Diagnostics", "Health", "Reife"],
+      "description": "Health-Check für AI-Value-Capture-Initiativen. Eine 360°-Aufnahme von Reife, Risiken und Hebeln entlang der zentralen Dimensionen.",
+      "file": "frozen/aivch.html",
+      "cover": null
+    },
+    {
+      "slug": "aivchw",
+      "title": "AIVCHW — Hardware ROI",
+      "subtitle": "AI Value Capture · Hardware-Investitionen",
+      "date": "2026-05-05",
+      "category": "aivc-family",
+      "tags": ["ROI", "Hardware", "Investition"],
+      "description": "Hardware-ROI für AI-Value-Capture. Welche Investitionen in Edge-Devices, Inferenz-Hardware und Endgeräte zahlen sich heute aus, welche später.",
+      "file": "frozen/aivchw.html",
+      "cover": null
+    },
+    {
+      "slug": "aivcir",
+      "title": "AIVCIR — Infrastructure ROI",
+      "subtitle": "AI Value Capture · Plattform- und Infrastruktur-ROI",
+      "date": "2026-05-05",
+      "category": "aivc-family",
+      "tags": ["ROI", "Infrastruktur", "Plattform"],
+      "description": "Infrastructure-ROI für AI-Value-Capture. Wo zahlt sich Plattform-Investition aus, wo bleibt sie totes Kapital.",
+      "file": "frozen/aivcir.html",
+      "cover": null
+    },
+    {
+      "slug": "akquise-plan-ai",
+      "title": "Akquise-Plan · AI Value Capturer",
+      "subtitle": "Vom Intrapreneur zur eigenen Praxis",
+      "date": "2026-05-05",
+      "category": "strategie",
+      "tags": ["Akquise", "Strategie", "Positionierung"],
+      "description": "Akquise-Plan vom Intrapreneur zur eigenen AI-Value-Capturer-Praxis. Stufenplan, Segmente, Kanäle und Pitch-Architektur als zusammenhängendes Bild.",
+      "file": "frozen/akquise-plan-ai.html",
+      "cover": null
+    }
+  ]
+}
