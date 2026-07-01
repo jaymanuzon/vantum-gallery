@@ -217,6 +217,24 @@
     main { padding: 22px 18px 32px; }
     .grid { gap: 14px; grid-template-columns: 1fr; }
   }
+
+  /* === MOBILE FIX (data-mobile-fix) — additiv, nichts oben geaendert === */
+  @media (max-width: 768px) {
+    .hdr-top { flex-direction: column; align-items: flex-start; }
+    .hdr .owner { align-self: flex-start; }
+    .ftr-inner { flex-direction: column; align-items: flex-start; }
+    .state { max-width: 100%; padding: 0 4px; }
+    .state code { white-space: normal; word-break: break-word; overflow-wrap: anywhere; }
+    .state p { overflow-wrap: anywhere; }
+    html, body { overflow-x: hidden; }
+  }
+  /* Footer-Links (Impressum/Datenschutz) liefen im Browser-Default-Blau auf dunklem Teal —
+     schlechter Kontrast auf ALLEN Viewports, darum global statt nur im Mobile-Breakpoint */
+  .ftr a { color: var(--apex-white); text-decoration: underline; }
+  .ftr a:visited { color: var(--apex-white); }
+  @media (max-width: 480px) {
+    .hdr h1 { font-size: 20px; }
+  }
 </style>
 </head>
 <body>
@@ -248,7 +266,7 @@
 <footer class="ftr">
   <div class="ftr-inner">
     <span id="ftr-updated">Last updated: —</span>
-    <span>Vantum · AI Value Capturer</span>
+    <span>Vantum · AI Value Capturer &nbsp;·&nbsp; <a href="impressum.html">Impressum</a> &nbsp;·&nbsp; <a href="datenschutz.html">Datenschutz</a></span>
   </div>
 </footer>
 

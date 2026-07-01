@@ -59,6 +59,12 @@
   .htbl th:first-child{text-align:left;}
   .htbl td{padding:6px 8px;border-bottom:1px solid var(--lg);text-align:center;font-weight:500;}
   .htbl td:first-child{text-align:left;font-weight:600;}
+  /* === MOBILE FIX (data-mobile-fix) — additiv, nichts oben geaendert === */
+  @media (max-width: 768px) {
+    table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    img, svg, canvas { max-width: 100%; height: auto; }
+    html, body { overflow-x: hidden; }
+  }
 </style>
 </head>
 <body>

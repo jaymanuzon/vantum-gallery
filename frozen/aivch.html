@@ -98,6 +98,13 @@
   .input-row label { font-size: 13px; font-weight: 600; color: var(--apex-navy); }
   .input-row input { border: 1px solid var(--apex-mid-gray); border-radius: 6px; padding: 6px 10px; font-size: 13px; width: 200px; }
   .input-row select { border: 1px solid var(--apex-mid-gray); border-radius: 6px; padding: 6px 10px; font-size: 13px; }
+  /* === MOBILE FIX (data-mobile-fix) — additiv, nichts oben geaendert === */
+  @media (max-width: 768px) {
+    table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    img, svg, canvas { max-width: 100%; height: auto; }
+    .input-row input { width: 100%; max-width: 200px; }
+    html, body { overflow-x: hidden; }
+  }
 </style>
 </head>
 <body>

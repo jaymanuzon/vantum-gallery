@@ -128,6 +128,14 @@
   .footer-cal strong { color: var(--apex-deep-teal); }
 
   .radar-wrap { max-width: 420px; margin: 0 auto 22px; border: 1px solid var(--apex-light-gray); border-radius: 12px; padding: 16px; background: var(--apex-white); }
+  /* === MOBILE FIX (data-mobile-fix) — additiv, nichts oben geaendert === */
+  @media (max-width: 768px) {
+    table, table.heatmap { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    img, svg, canvas { max-width: 100%; height: auto; }
+    html, body { overflow-x: hidden; }
+    /* Task-Titel mit langem, ungebrochenem Wort sprengte die Flex-Row neben dem Readiness-Badge */
+    .tc-title { min-width: 0; overflow-wrap: anywhere; word-break: break-word; }
+  }
 </style>
 </head>
 <body>

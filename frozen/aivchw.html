@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI Value Capture Hardware ROI</title>
-:root { color-scheme: light }
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.js" integrity="sha384-iU8HYtnGQ8Cy4zl7gbNMOhsDTTKX02BTXptVP/vqAWIaTfM7isw76iyZCsjL2eVi" crossorigin="anonymous"></script>
 <style>
+:root { color-scheme: light }
 :root {
   --apex-navy: #1D4477;
   --apex-sky: #00B1EB;
@@ -70,6 +70,17 @@ body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background
 @media (max-width: 600px) {
   .dim-grid { grid-template-columns: 1fr; }
   .meta-bar { flex-direction: column; gap: 8px; }
+}
+/* === MOBILE FIX (data-mobile-fix) — additiv, nichts oben geaendert === */
+@media (max-width: 768px) {
+  table.roi-table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  img, svg, canvas { max-width: 100%; height: auto; }
+  .footer { flex-direction: column; gap: 6px; align-items: flex-start; }
+  html, body { overflow-x: hidden; }
+  /* Configuration-Tab: 3-Spalten-Grid + fixe Input-Breite sprengten den Viewport (nicht scrollbar) */
+  div[style*="grid-template-columns:1fr 1fr 1fr"] { grid-template-columns: 1fr !important; }
+  .config-group { min-width: 0; }
+  .config-input { width: 100%; max-width: 100%; box-sizing: border-box; }
 }
 </style>
 </head>
